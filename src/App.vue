@@ -4,7 +4,7 @@
     <MainContents/>
     <BlueBanner/>
     <DcFooter/>
-    <SocialBanner/>
+    <!-- <SocialBanner/> -->
 
   </div>
 </template>
@@ -15,7 +15,7 @@ import DcHeader from './components/DcHeader.vue'
 import BlueBanner from './components/BlueBanner.vue'
 import MainContents from './components/MainContents.vue'
 import DcFooter from './components/DcFooter.vue'
-import SocialBanner from './components/SocialBanner.vue'
+// import SocialBanner from './components/SocialBanner.vue'
 
 export default {
   name: 'App',
@@ -25,7 +25,7 @@ export default {
     BlueBanner,
     MainContents,
     DcFooter,
-    SocialBanner
+    // SocialBanner
   }
 }
 </script>
