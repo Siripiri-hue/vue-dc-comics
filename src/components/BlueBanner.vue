@@ -61,7 +61,7 @@ section {
 
 .container {
     color: white;
-    padding: 50px;
+    padding: 50px 0;
 
     ul {
         display: flex;

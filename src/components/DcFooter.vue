@@ -62,8 +62,7 @@ footer {
     background-image: url("../assets/img/footer-bg.jpg");
 
     .container {
-        height: 310px;
-        padding: 10px;
+        padding: 30px 0;
         background-image: url("../assets/img/dc-logo-bg.png");
         background-repeat: no-repeat;
         background-size: contain;
