@@ -1,7 +1,11 @@
 <template>
     <main>
+        <figure id="jumbo">
+            <img src="../assets/img/jumbotron.jpg" alt="">
+        </figure>
+
         <div class="container">
-            Contents go here
+            CONTENTS GO HERE
         </div>
         
     </main>
@@ -20,8 +24,19 @@ main {
     color: white;
     min-height: 150px;
 
+    #jumbo {
+        height: 300px;
+        // width: 99vw;
+
+        img {
+            object-fit: cover;
+            height: 100%;
+            object-position: top center;
+        }
+    }
+
     .container {
-        padding: 10px;
+        padding: 10px 0;
     }
 }
 

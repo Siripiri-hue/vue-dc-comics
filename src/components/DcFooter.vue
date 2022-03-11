@@ -65,7 +65,7 @@ footer {
         padding: 30px 0;
         background-image: url("../assets/img/dc-logo-bg.png");
         background-repeat: no-repeat;
-        background-size: contain;
+        background-size: 40%;
         background-position: center right;
         display: flex;
         gap: 12px;

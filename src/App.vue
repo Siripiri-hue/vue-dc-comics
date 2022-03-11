@@ -39,6 +39,10 @@ export default {
   box-sizing: border-box;
 }
 
+img {
+  width: 100%;
+}
+
 #app {
   font-family: 'Roboto', sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -49,7 +53,8 @@ export default {
 }
 
 .container {
-  width: 1024px;
+  max-width: 1030px;
   margin: 0 auto;
+  padding: 10px 10px;
 }
 </style>
