@@ -1,15 +1,18 @@
 <template>
     <div class="card">
         <figure>
-            <img src="https://picsum.photos/200" alt="">
-            <figcaption>QUI DIDASCALIA</figcaption>
+            <img :src="img" alt="">
+            <figcaption>{{ series }}</figcaption>
         </figure>
     </div>
 </template>
 
 <script>
 export default {
-    
+    props: {
+        img: String,
+        series: String,
+    }
 }
 </script>
 
@@ -17,8 +20,18 @@ export default {
 
 .card {
     width: calc((100% - 50px) / 6);
-    aspect-ratio: 1;
     flex-grow: 1;
+
+    figure {
+        width: 100%;
+        aspect-ratio: 1;
+
+        img {
+            height: 100%;
+            object-fit: cover;
+            object-position: top center;
+        }
+    }
 }
 
 </style>
