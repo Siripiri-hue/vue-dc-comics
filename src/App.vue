@@ -43,6 +43,11 @@ img {
   width: 100%;
 }
 
+a {
+  color: currentColor;
+  text-decoration: none;
+}
+
 #app {
   font-family: 'Roboto', sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -57,4 +62,5 @@ img {
   margin: 0 auto;
   padding: 10px 10px;
 }
+
 </style>

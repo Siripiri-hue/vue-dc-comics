@@ -50,10 +50,6 @@ export default {
                 line-height: 115px;
                 color: #555554;
 
-                a {
-                    text-decoration: none;
-                }
-
                 &.active::after {
                     content: "";
                     display: block;
